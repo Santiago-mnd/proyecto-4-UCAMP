@@ -38,8 +38,6 @@ const Reservaciones = () => {
 
   const { cliente, fecha, total_asistentes, vip } = reserva;
 
-  console.log(reservaciones);
-
   const postData = async (reservacion) => {
     try {
       setLoading(true);
